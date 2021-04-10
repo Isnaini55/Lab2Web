@@ -79,3 +79,61 @@ Kemudian tambahkan deklarasi inline CSS pada tag <p> seperti berikut.
     <p style="text-align: center; color: #ccd8e4;">
 ~~~
 Simpan kembali dan refresh kembali browser untuk melihat perubahannya.
+![3  Menambahkan Inline CSS](https://user-images.githubusercontent.com/81541764/114258083-63c43000-99ee-11eb-9f9b-53a732343145.JPG)
+
+## 4. Membuat CSS Eksternal
+Buatlah file baru dengan nama style_eksternal.css kemudian buatlah deklarasi CSS seperti berikut.
+~~~
+nav {
+    background: #20A759;
+    color:#fff;
+    padding: 10px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding:10px 20px;
+}
+nav .active,
+nav a:hover {
+    background: #0B6B3A;
+}
+~~~
+Kemudian tambahkan tag <link> untuk merujuk file css yang sudah dibuat pada bagian <head>
+~~~
+<head>
+    <!-- menyisipkan css eksternal -->
+    <link rel="stylesheet" href="style_eksternal.css" type="text/css">
+</head>
+~~~
+Selanjutnya refresh kembali browser untuk melihat perubahannya.
+![Uploading 4. style CSS Eksternal (Link).JPG…]()
+
+## 5. Menambahkan CSS Selector
+Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada file style_eksternal.css, tambahkan kode berikut.
+~~~
+/* ID Selector */
+#intro {
+    background: #418fb1;
+    border: 1px solid #099249;
+    min-height: 100px;
+    padding: 10px;
+}
+#intro h1 {
+    text-align: left;
+    border: 0;
+    color: #fff;
+}
+/* Class Selector */
+.button {
+    padding: 15px 20px;
+    background: #bebcbd;
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+}
+.btn-primary {
+    background: #E42A42;
+}
+~~~
