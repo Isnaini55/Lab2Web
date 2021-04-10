@@ -147,6 +147,15 @@ Kemudian simpan kembali dan refresh browser untuk melihat perubahannya.
 
 ## Pertanyaan dan Tugas
 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
+   ~~~
+   Saya menambahkan border dan warna border pada kode CSS, sehingga ada beberapa perubahan seperti gambar dibawah ini.
+   ~~~
+   ![Pertanyaan no1](https://user-images.githubusercontent.com/81541764/114267183-88d39580-9a24-11eb-9ea8-afc617f19d90.JPG)
+
 2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya!
+   ~~~
+   Ketika kita mengganti nilai CSS elemen h1 {....} maka yang akan berubah yang memiliki tag h1 seperti <h1> CSS Internal dan Inline CSS </h1> dan <h1> Hello World </h1>.
+   Sedangkan jika kita mengganti #intro h1{....} maka yang berubah hanya memiliki tag div id="intro" saja yang berubah seperti <h1> Hello World </h1>
+   ~~~
 3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
 4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! ( <p id="paragraf-1" class="text-paragraf"> )
