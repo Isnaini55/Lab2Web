@@ -99,6 +99,9 @@ nav a:hover {
     background: #0B6B3A;
 }
 ~~~
+
+![4  style CSS Eksternal](https://user-images.githubusercontent.com/81541764/114258389-5740d700-99f0-11eb-98b2-cc85b9334a6f.JPG)
+
 Kemudian tambahkan tag <link> untuk merujuk file css yang sudah dibuat pada bagian <head>
 ~~~
 <head>
@@ -107,7 +110,9 @@ Kemudian tambahkan tag <link> untuk merujuk file css yang sudah dibuat pada bagi
 </head>
 ~~~
 Selanjutnya refresh kembali browser untuk melihat perubahannya.
-![Uploading 4. style CSS Eksternal (Link).JPG…]()
+
+![4  style CSS Eksternal (Link)](https://user-images.githubusercontent.com/81541764/114258298-e13c7000-99ef-11eb-8ded-8f86a34c24b2.JPG)
+
 
 ## 5. Menambahkan CSS Selector
 Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada file style_eksternal.css, tambahkan kode berikut.
@@ -137,3 +142,5 @@ Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada fil
     background: #E42A42;
 }
 ~~~
+Kemudian simpan kembali dan refresh browser untuk melihat perubahannya.
+![5  ID selector](https://user-images.githubusercontent.com/81541764/114258334-1e086700-99f0-11eb-9453-c516bc050279.JPG)
