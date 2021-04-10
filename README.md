@@ -154,8 +154,24 @@ Kemudian simpan kembali dan refresh browser untuk melihat perubahannya.
 
 2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya!
    ~~~
-   Ketika kita mengganti nilai CSS elemen h1 {....} maka yang akan berubah yang memiliki tag h1 seperti <h1> CSS Internal dan Inline CSS </h1> dan <h1> Hello World </h1>.
-   Sedangkan jika kita mengganti #intro h1{....} maka yang berubah hanya memiliki tag div id="intro" saja yang berubah seperti <h1> Hello World </h1>
+   Ketika kita mengganti nilai CSS elemen h1 {....} maka yang akan berubah yang memiliki tag h1 seperti <h1>CSS Internal dan Inline CSS</h1>
+   dan <h1>Hello World</h1>. Sedangkan jika kita mengganti #intro h1{....} maka yang berubah hanya memiliki
+   tag div id="intro" saja yang berubah seperti <h1> Hello World </h1>
    ~~~
 3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+    ~~~
+    Jika ada deklarasi CSS secara internal kemudian ditambahkan CSS Eksternal dan inline CSS pada elemen yang sama, maka deklarasi inline CSS yang akan muncul pada browser.
+    Karena salah satu manfaat dari inline CSS adalah permintaan HTTP yang lebih kecil, sehingga web server bisa lebih cepat membacanya.
+    ~~~
+   ![Capture](https://user-images.githubusercontent.com/81541764/114271914-fd66fe00-9a3d-11eb-80d8-c595beb2fb2b.JPG)
+![Pertanyaan no3](https://user-images.githubusercontent.com/81541764/114271916-ffc95800-9a3d-11eb-8068-952aed7d55a3.JPG)
+
+
 4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! ( <p id="paragraf-1" class="text-paragraf"> )
+    ~~~
+    Perbedaan dari class dan id adalah class di panggil menggunakan tanda titik (.) dan id dengan tanda pagar (#),
+    jadi kedua deklarasi tetap akan tampil pada browser. Hanya saja class dapat di berikan pada banyak element html
+    dan dapat di panggil sekaligus, sedangkan id hanya dapat bekerja pada satu penandaan saja.
+    ~~~
+![Pertanyaan no4 b](https://user-images.githubusercontent.com/81541764/114271834-9e08ee00-9a3d-11eb-90d2-45b6bf755142.JPG)
+![Pertanyaan no4](https://user-images.githubusercontent.com/81541764/114271836-9fd2b180-9a3d-11eb-84ba-fd63843ae422.JPG)
