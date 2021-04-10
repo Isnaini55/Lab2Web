@@ -72,3 +72,10 @@ Kemudian tambahkan deklarasi CSS internal seperti berikut pada bagian head dokum
 Selanjutnya simpan perubahan yang ada, dan lakukan refresh pada browser untuk melihat hasilnya.
 
 ![2  Mendeklarsi CSS Internal](https://user-images.githubusercontent.com/81541764/114257796-75a4d380-99ec-11eb-975e-13c5230445dd.JPG)
+
+## 3. Menambahkan Inline CSS
+Kemudian tambahkan deklarasi inline CSS pada tag <p> seperti berikut.
+~~~
+    <p style="text-align: center; color: #ccd8e4;">
+~~~
+Simpan kembali dan refresh kembali browser untuk melihat perubahannya.
