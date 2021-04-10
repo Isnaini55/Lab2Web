@@ -10,7 +10,7 @@ NIM   : 311910254
 Kelas : TI.19.C1
 ~~~
 ## Langkah-langkah Praktikum
-##1. Membuat dokumen HTML
+## 1. Membuat dokumen HTML
 Buatlah dokumen HTML seperti berikut
 ~~~
 <!DOCTYPE html>
@@ -45,5 +45,30 @@ Selanjutnya buka pada brwoser untuk melihat hasilnya.
 
 ![1  Membuat dokumen HTML](https://user-images.githubusercontent.com/81541764/114257496-a97ef980-99ea-11eb-97d5-401f3469aab4.JPG)
 
-##2. Mendeklarasikan CSS Internal
+## 2. Mendeklarasikan CSS Internal
 Kemudian tambahkan deklarasi CSS internal seperti berikut pada bagian head dokumen.
+~~~
+<head>
+<title>CSS Dasar</title>
+<style>
+    body {
+    font-family:'Open Sans', sans-serif;
+    }
+    header {
+    min-height: 80px;
+    border-bottom:1px solid #77CCEF;
+    }
+    h1 {
+    font-size: 24px;
+    color: #0F189F;
+    text-align: center;
+    padding: 20px 10px;
+    }
+    h1 i { color:#6d6a6b;
+    }
+</style>
+</head>
+~~~
+Selanjutnya simpan perubahan yang ada, dan lakukan refresh pada browser untuk melihat hasilnya.
+
+![2  Mendeklarsi CSS Internal](https://user-images.githubusercontent.com/81541764/114257796-75a4d380-99ec-11eb-975e-13c5230445dd.JPG)
